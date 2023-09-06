@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "namespace": "local.service-connect",
+  "services": [
+    {
+      "portName": "call-server-80-tcp",
+      "clientAliases": [
+        {
+          "port": 80,
+          "dnsName": "call-server.local"
+        }
+      ]
+    }
+  ]
+}
